@@ -3,6 +3,17 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.site-header {
+    background-color: #1e2842; /* Fundo azul escuro */
+    color: #ffffff; /* Texto branco */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhar o texto ao centro */
+}
+
+.site-header h1 {
+    margin: 0; /* Remover margem padrão para o título */
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -67,7 +78,7 @@ tbody tr:nth-child(even) {
 }
 
 .finalizar-compra:hover {
-    background-color: #e60000;
+    background-color: #03e2ff;
 }
 
 /* Estilos para o total */
@@ -81,3 +92,12 @@ h5 {
 #cart-total {
     color: #e60000;
 }
+
+#back-to-products {
+    margin-top: 10px;
+}
+
+.back-to-products:hover {
+    background-color: #03e2ff;
+}
+

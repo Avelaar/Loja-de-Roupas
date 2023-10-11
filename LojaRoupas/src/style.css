@@ -1,4 +1,3 @@
-/* Estilos gerais da página */
 body {
     background-color: #f3f3f3;
     font-family: Arial, sans-serif;
@@ -82,50 +81,3 @@ h5 {
 #cart-total {
     color: #e60000;
 }
-    
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f0f0f0;
-    padding: 10px;
-  }
-
-  /* Estilizando o nome da loja */
-  .store-name {
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  /* Estilizando o ícone do carrinho de compras */
-  .cart-icon {
-    font-size: 24px;
-    position: relative;
-  }
-  .cart-icon img {
-    width: 40px; /* Definindo o tamanho desejado para a imagem (ajuste conforme necessário) */
-    height: auto; /* Mantém a proporção da imagem */
-  }
-
-  /* Estilizando o contador de itens no carrinho */
-  .cart-count {
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-    padding: 1px 5px;
-    font-size: 10px;
-    position: absolute;
-    top: 1px;
-    right: -2px;
-    display: inline-block;
-    text-align: center;
-}
-
-
-.store-name a:hover {
-    color: blue; /* Altera a cor do texto do link quando passa o mouse (substitua pela cor desejada) */
-  }
-
-  .store-name a:visited {
-    color: black; /* Altera a cor do texto do link visitado (substitua pela cor desejada) */
-  }

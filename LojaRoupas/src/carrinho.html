@@ -1,0 +1,32 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h3>Carrinho de Compras</h3>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Preço Unitário</th>
+                        <th>Total</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+            
+                </tbody>
+            </table>
+            <h5>Total: R$ <span id="cart-total">0.00</span></h5>
+            <a class="btn waves-effect waves-light finalizar-compra" href="#">Finalizar Compra</a>
+        </div>
+        <script src="carrinho.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    </body>
+    </html>

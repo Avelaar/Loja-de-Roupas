@@ -1,0 +1,43 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="store-name">
+                <a href="../src/produto.html">Sneaker Street</a>
+            </div>
+            <div class="cart-icon">
+                <a href="carrinho.html?product=TÊNIS%20QIX%20HEXAGON&price=459.90">
+                    <img src="../public/assets/car.jpg" alt="Ícone do carrinho de compras"> 
+                  </a>
+                <span class="cart-count" id="cartItemCount">0</span> 
+              </div>
+          </div>
+        <div class="container">
+            <h3>Carrinho de Compras</h3>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Preço Unitário</th>
+                        <th>Total</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+            
+                </tbody>
+            </table>
+            <h5>Total: R$ <span id="cart-total">0.00</span></h5>
+            <a class="btn waves-effect waves-light finalizar-compra" href="#">Finalizar Compra</a>
+        </div>
+        <script src="carrinho.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    </body>
+    </html>

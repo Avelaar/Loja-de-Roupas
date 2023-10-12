@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="store-name">
+            <a href="../src/produto.html">Sneaker Street</a>
+        </div>
+        <div class="cart-icon">
+            <a href="carrinho.html?product=TÊNIS%20QIX%20HEXAGON&price=459.90">
+                <img src="../public/assets/car.jpg" alt="Ícone do carrinho de compras"> 
+              </a>
+            <span class="cart-count" id="cartItemCount">0</span> 
+          </div>
+      </div>
+    <div class="container">
+        <h3>Produtos</h3>
+        <div class="row">
+            <div class="col s6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../public/assets/produto1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">TÊNIS QIX HEXAGON</span>
+                        <p>R$459,90</p>
+                        <button class="btn waves-effect waves-light" onclick="addProductToCart('TÊNIS QIX HEXAGON', 459.90)">Adicionar ao Carrinho</button>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col s6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../public/assets/produto2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">QIX SKATE SQUARE</span>
+                        <p>R$339,90</p>
+                        <button class="btn waves-effect waves-light" onclick="addProductToCart('QIX SKATE SQUARE', 339.90)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../public/assets/produto3.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">TÊNIS QIX 90'S</span>
+                        <p>R$289,90</p>
+                        <button class="btn waves-effect waves-light" onclick="addProductToCart('TÊNIS QIX 90\'S', 289.90)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../public/assets/produto4.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">TÊNIS QIX CHORÃO 02</span>
+                        <p>R$549,90</p>
+                        <button class="btn waves-effect waves-light" onclick="addProductToCart('TÊNIS QIX CHORÃO 02', 549.90)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../src/carrinho.js"></script>
+
+</body>
+</html>

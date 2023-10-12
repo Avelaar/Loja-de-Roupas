@@ -1,0 +1,131 @@
+/* Estilos gerais da página */
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+h3 {            
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos para a tabela de produtos no carrinho */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para os botões */
+.btn {
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #0057b3;
+}
+
+/* Estilos para o botão "Finalizar Compra" */
+.finalizar-compra {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.finalizar-compra:hover {
+    background-color: #e60000;
+}
+
+/* Estilos para o total */
+h5 {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+    color: #333;
+}
+
+#cart-total {
+    color: #e60000;
+}
+    
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+
+  /* Estilizando o nome da loja */
+  .store-name {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  /* Estilizando o ícone do carrinho de compras */
+  .cart-icon {
+    font-size: 24px;
+    position: relative;
+  }
+  .cart-icon img {
+    width: 40px; /* Definindo o tamanho desejado para a imagem (ajuste conforme necessário) */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+  /* Estilizando o contador de itens no carrinho */
+  .cart-count {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 1px 5px;
+    font-size: 10px;
+    position: absolute;
+    top: 1px;
+    right: -2px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.store-name a:hover {
+    color: blue; /* Altera a cor do texto do link quando passa o mouse (substitua pela cor desejada) */
+  }
+
+  .store-name a:visited {
+    color: black; /* Altera a cor do texto do link visitado (substitua pela cor desejada) */
+  }

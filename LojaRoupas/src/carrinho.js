@@ -71,8 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
 
-        // Resto do código permanece igual
-        // ...
+
 
         if (e.target.classList.contains("finalizar-compra")) {
             // Adicione a lógica para finalizar a compra aqui

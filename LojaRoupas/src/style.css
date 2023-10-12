@@ -4,10 +4,10 @@ body {
 }
 
 .site-header {
-    background-color: #1e2842; /* Fundo azul escuro */
-    color: #ffffff; /* Texto branco */
-    padding: 20px; /* Espaçamento interno */
-    text-align: center; /* Alinhar o texto ao centro */
+    background-color: #1e2842; 
+    color: #ffffff; 
+    padding: 20px; 
+    text-align: center; 
 }
 
 .site-header h1 {
@@ -35,7 +35,7 @@ h3 {
     color: #333;
 }
 
-/* Estilos para a tabela de produtos no carrinho */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -56,7 +56,7 @@ tbody tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-/* Estilos para os botões */
+
 .btn {
     background-color: #0073e6;
     color: #fff;
@@ -70,7 +70,7 @@ tbody tr:nth-child(even) {
     background-color: #0057b3;
 }
 
-/* Estilos para o botão "Finalizar Compra" */
+
 .finalizar-compra {
     display: block;
     text-align: center;
@@ -81,7 +81,7 @@ tbody tr:nth-child(even) {
     background-color: #03e2ff;
 }
 
-/* Estilos para o total */
+
 h5 {
     margin-top: 20px;
     text-align: right;
@@ -101,3 +101,51 @@ h5 {
     background-color: #03e2ff;
 }
 
+
+
+
+a.name{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; 
+    padding: 10px;
+  }
+  
+
+  .store-name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center; 
+    flex-grow: 1; 
+  }
+  
+
+  .cart-icon {
+    font-size: 24px;
+    position: relative;
+  }
+  .cart-icon img {
+    color: #e60000;
+    width: 40px; 
+    height: auto; 
+  }
+
+
+  .cart-count {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 1px 5px;
+    font-size: 10px;
+    position: absolute;
+    top: 1px;
+    right: -2px;
+    display: inline-block;
+    text-align: center;
+}

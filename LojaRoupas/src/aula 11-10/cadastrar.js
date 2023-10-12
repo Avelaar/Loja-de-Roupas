@@ -11,4 +11,4 @@ document.querySelector("#botao-cadastrar").addEventListener("click", () => {
     const pontos = document.querySelector('#pontos').value
 
     console.log(tarefa)
-})
+})  

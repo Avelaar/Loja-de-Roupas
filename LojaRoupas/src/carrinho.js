@@ -29,8 +29,27 @@ document.addEventListener("DOMContentLoaded", function() {
             total += item.price * item.quantity;
         }
         cartTotal.textContent = total.toFixed(2);
+
+        localStorage.setItem('cart', JSON.stringify(cart));
     }
 
+        const savedCart = localStorage.getItem('cart');
+        if (savedCart) {
+            cart = JSON.parse(savedCart);
+        };
+
+        if (window.location.pathname.endsWith("carrinho.html")) {
+            updateCart();
+        }
+
+    document.addEventListener('click', function(e) {
+        if (e.target.classList.contains("add-to-cart")) {
+            const name = e.target.getAttribute("data-name");
+            const price = parseFloat(e.target.getAttribute("data-price"));
+            addProductToCart(name, price);
+        };
+    });
+    
     function addProductToCart(name, price) {
         const existingItem = cart.find(item => item.name === name);
         if (existingItem) {
